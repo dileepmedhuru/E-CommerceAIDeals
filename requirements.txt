@@ -1,0 +1,12 @@
+Flask
+Flask-CORS
+requests
+scikit-learn
+joblib
+pymongo
+pandas
+apscheduler
+python-dotenv
+fastapi
+uvicorn
+numpy
