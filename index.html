@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Deals AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>MD AI-Powered Deals</h1>
+
+    <!-- User Input for Number of Deals -->
+    <div id="input-container">
+        <label for="deal-count">Enter Number of Deals to Display:</label>
+        <input type="number" id="deal-count" min="1"  value="5">
+        <button onclick="fetchDeals()">Show Deals</button>
+    </div>
+
+    <div id="deals-container"></div>
+
+    <!-- Confirmation Message -->
+    <div id="confirmation-message">
+        <p>✅ Thanks for visiting! Your booking is under progress.</p>
+    </div>
+
+    <!-- Home Button -->
+    <button id="home-btn" onclick="window.location.reload()">🏠 Go to Home</button>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

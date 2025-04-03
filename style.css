@@ -1,0 +1,114 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header */
+h1 {
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    margin: 0;
+}
+
+/* User Input Section */
+#input-container {
+    margin: 20px;
+}
+
+input {
+    padding: 8px;
+    font-size: 16px;
+    width: 60px;
+    text-align: center;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Deals Container */
+#deals-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Deal Card */
+.deal-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin: 10px;
+    width: 250px;
+    transition: transform 0.3s ease;
+}
+
+.deal-card:hover {
+    transform: scale(1.05);
+}
+
+.deal-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Buy Now Button */
+.buy-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.buy-btn:hover {
+    background-color: #218838;
+}
+
+/* Confirmation Message */
+#confirmation-message {
+    display: none;
+    background-color: #ffc107;
+    padding: 20px;
+    font-size: 20px;
+    margin: 20px auto;
+    border-radius: 5px;
+    width: 50%;
+}
+
+/* Home Button */
+#home-btn {
+    display: none;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+#home-btn:hover {
+    background-color: #0056b3;
+}
